@@ -2,16 +2,16 @@
 /* general */
 
 html,body{
-  width: 1960px;
+  width: 100%;
   margin: 0;
 }
 
 /* header */
 
 header {
-  height: 150px;
+  height: 100px;
   display: grid;
-grid-template: repeat(1,1fr)/repeat(10,1fr)
+  grid-template: repeat(5,24px)/repeat(38,51.57px)
 }
 
 
@@ -19,11 +19,10 @@ grid-template: repeat(1,1fr)/repeat(10,1fr)
 /* header logo */
 
 .leftNav {
-  height: 150px;
+  height: 120px;
   grid-column: 2;
   display: grid;
-grid-template: repeat(20,5px) / repeat(40,5px);
-  background-color: red;
+  grid-template: repeat(20,5px) / repeat(40,5px);
 }
 
 #logo1 {
