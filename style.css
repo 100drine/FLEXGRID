@@ -3,31 +3,55 @@
 
 html,body{
   width: 1960px;
+  margin: 0;
 }
 
 /* header */
 
 header {
-  height: 100px;
+  height: 150px;
+  display: grid;
+grid-template: repeat(1,1fr)/repeat(10,1fr)
+}
+
+
+
+/* header logo */
+
+.leftNav {
+  height: 150px;
+  grid-column: 2;
   display: grid;
 grid-template: repeat(20,5px) / repeat(40,5px);
   background-color: red;
 }
 
-/* header logo */
-
 #logo1 {
-  
+  grid-area: 3/40/15/40;
+  background-color: black;
 }
+
 #logo2 {
-  
+  grid-area: 5/28/17/28;
+  background-color: black;
 }
+
 #logo3 {
-  
+  grid-area: 16/30/16/41;
+  background-color: black;
 }
+
 #logo4 {
-  
+  grid-area: 3/39/3/28;
+  background-color: black;
 }
+
 #logo5 {
-  
+  grid-area: 7/36/9/33;
+  background-color: black;
+}
+
+#logo6{
+  grid-area: 13/36/11/33;
+  background-color: black;
 }
