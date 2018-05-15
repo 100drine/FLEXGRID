@@ -10,16 +10,24 @@ html,body{
 header {
   height: 100px;
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
+grid-template: repeat(20,5px) / repeat(40,5px);
   background-color: red;
 }
 
-header h1 {
+/* header logo */
 
-  background-color: blue;
+#logo1 {
+  
 }
-
-header img {
-
+#logo2 {
+  
+}
+#logo3 {
+  
+}
+#logo4 {
+  
+}
+#logo5 {
+  
 }
