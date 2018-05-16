@@ -1,7 +1,12 @@
 /* header */
 
+.navContain {
+  display: flex
+}
+
 header {
   height: 100px;
+  width: 100%;
   display: grid;
   grid-template: repeat(5,26px)/repeat(27,51.57px);
   grid-gap: 7px;
@@ -38,6 +43,7 @@ header H1 {
   grid-gap: 7px;
 font-family: 'Press Start 2P', cursive;
 text-align: center;
+margin-top: 3px;
 }
 
 .brickBlock a {
