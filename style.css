@@ -89,6 +89,20 @@ h3{
     width: 300px;
     color: white;
     }
+    #conteneur6 {
+        background-color: #0D0000;
+        color:white;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 1300px;
+        display: flex;
+        align-content: space-around;
+    }
+
+
+
+
 
 
 #conteneur6 {
@@ -100,4 +114,12 @@ h3{
     width: 1300px;
     display: flex;
     align-content: space-around;
+}
+
+/*logo simplon*/
+img{
+    width:  60px;
+    height: 60px;
+        display: block;
+    margin: auto;
 }
