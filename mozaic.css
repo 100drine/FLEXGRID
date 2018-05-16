@@ -19,10 +19,15 @@ font-family: 'Monoton', cursive;
     width: 100%;
     height: 400px;
     margin: 105px 0 0 0;
-    background-color: white;
     display: grid;
     grid-template: repeat(12, 1fr) / repeat(35, 1fr);
     grid-gap: 5px;
+}
+
+#mozaic p {
+    font-size: 80px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
 }
 
 #box01 {
@@ -53,6 +58,12 @@ font-family: 'Monoton', cursive;
 #box06 {
     background-color: #4b6584;
     grid-area: 3 / 3 / 7 / 7;
+    box-shadow: 2px 2px 3px black, -1px -1px 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    overflow: hidden;
 }
 
 #box07 {
@@ -94,6 +105,12 @@ font-family: 'Monoton', cursive;
 #box14 {
     background-color: #a5b1c2;
     grid-area: 8 / 10 / 12 / 14;
+    box-shadow: 2px 2px 3px black, -1px -1px 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    overflow: hidden;
 }
 
 #box15 {
@@ -174,6 +191,12 @@ font-family: 'Monoton', cursive;
 #box30 {
     background-color: #778ca3;
     grid-area: 2 / 17 / 6 / 21;
+    box-shadow: 2px 2px 3px black, -1px -1px 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    overflow: hidden;
 }
 
 #box31 {
@@ -199,6 +222,12 @@ font-family: 'Monoton', cursive;
 #box35 {
     background-color: #fed330;
     grid-area: 4 / 25 / 8 / 29;
+    box-shadow: 2px 2px 3px black, -1px -1px 1px black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    overflow: hidden;
 }
 
 #box36 {
@@ -217,12 +246,12 @@ font-family: 'Monoton', cursive;
 }
 
 #box39 {
-    background-color: #d1d8e0;
+    background-color: #2d98da;
     grid-area: 3 / 21 / 6 / 23;
 }
 
 #box40 {
-    background-color: #d1d8e0;
+    background-color: #2d98da;
     grid-area: 4 / 21 / 6 / 25;
 }
 
@@ -301,6 +330,114 @@ font-family: 'Monoton', cursive;
     background-color: #fed330;
     grid-area: 9 / 34 / 13 / 36;
 }
+
+
+#mozabox {
+    width: 100%;
+    height: 400px;
+    margin: 5px 0 0 0;
+    display: flex;
+
+}
+
+#mozabox1 {
+    width: 50%;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-flow:column wrap;
+    align-content: stretch;
+}
+
+#mozabox1 p {
+    font-size: 80px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+#flex01 {
+    background-color:#fc5c65;
+    width: 150px;
+    height: 150px;
+    box-shadow: 2px 2px 3px black, -1px -1px 1px black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+#flex02 {
+    background-color:white;
+    width: 150px;
+    height: 150px;
+}
+
+#flex03 {
+    background-color: white;
+    width: 150px;
+    height: 150px;
+}
+
+#flex04 {
+    background-color:#26de81;
+    width: 150px;
+    height: 150px;
+     box-shadow: 2px 2px 3px black, -1px -1px 1px black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+#flex05 {
+    background-color: #fed330;
+    width: 150px;
+    height: 150px;
+    box-shadow: 2px 2px 3px black, -1px -1px 1px black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+#flex06 {
+    background-color: white;
+    width: 150px;
+    height: 150px;
+}
+
+#flex07 {
+    background-color:white;
+    width: 150px;
+    height: 150px;
+}
+
+#flex08 {
+    background-color: #4b7bec;
+    width: 150px;
+    height: 150px;
+    box-shadow: 2px 2px 3px black, -1px -1px 1px black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+#mozabox2 {
+    width: 50%;
+    height: 400px;
+    background-color: yellow;;
+}
+
+#flex10 {
+    
+}
+
 
 /*palette de couleurs
 #f2790f jaune
