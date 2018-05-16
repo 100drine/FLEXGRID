@@ -13,28 +13,33 @@
 }
 
 #box01 {
-    background-color: #fc5c65;
-    grid-area: 1 / 1 / 2 / 2;
+    background-color: #fd9644;
+    grid-area: 1 / 1 / 8 / 2;
 }
 
 #box02 {
-    
+    background-color: #fd9644;
+    grid-area: 1 / 1 / 3 / 5;
 }
 
 #box03 {
-    
+    background-color: #fd9644;
+    grid-area: 1 / 1 / 7/ 3;
 }
 
 #box04 {
-    
+    background-color: #4b7bec;
+    grid-area: 7 / 2 / 9 / 7;
 }
 
 #box05 {
-    
+    background-color: #4b7bec;
+    grid-area: 8 / 1 / 10 / 6;
 }
 
 #box06 {
-    
+    background-color: #4b6584;
+    grid-area: 3 / 3 / 7 / 7;
 }
 
 #box07 {
