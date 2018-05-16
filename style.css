@@ -11,7 +11,10 @@ html,body{
 header {
   height: 100px;
   display: grid;
-  grid-template: repeat(5,24px)/repeat(38,51.57px)
+  grid-template: repeat(5,24px)/repeat(38,51.57px);
+  background-color: black;
+  position: fixed;
+  top: 0
 }
 
 
@@ -27,30 +30,30 @@ header {
 
 #logo1 {
   grid-area: 3/40/15/40;
-  background-color: black;
+  background-color: red;
 }
 
 #logo2 {
   grid-area: 5/28/17/28;
-  background-color: black;
+  background-color: red;
 }
 
 #logo3 {
   grid-area: 16/30/16/41;
-  background-color: black;
+  background-color: red;
 }
 
 #logo4 {
   grid-area: 3/39/3/28;
-  background-color: black;
+  background-color: red;
 }
 
 #logo5 {
   grid-area: 7/36/9/33;
-  background-color: black;
+  background-color: red;
 }
 
 #logo6{
   grid-area: 13/36/11/33;
-  background-color: black;
+  background-color: red;
 }
