@@ -313,6 +313,11 @@ font-family: 'Monoton', cursive;
     display:flex;
     flex-shrink: 0;
     overflow: hidden;
+
+
+    font-family: 'Monoton', cursive;
+
+
 }
 
 #flex10 {
