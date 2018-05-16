@@ -24,7 +24,7 @@ html,body{
 header {
   height: 100px;
   display: grid;
-  grid-template: repeat(5,24px)/repeat(38,51.57px);
+  grid-template: repeat(5,26px)/repeat(27,51.57px);
   grid-gap: 7px;
   background-color: black;
   position: fixed;
@@ -41,8 +41,97 @@ header H1 {
   font-size: 23px;
 }
 
+/* Bricks */
 
+/*
+#f2790f jaune
+#f26716 orange
+#bf2604 orange-rouge
+#8C0E03 rouge profond
+#0D0000 noir 
+*/
+.brickBlock {
+  height: 100px;
+  display: grid;
+  grid-template: repeat(5,26px)/repeat(27,51px);
+  grid-gap: 7px;
+font-family: 'Press Start 2P', cursive;
+text-align: center;
+}
 
+.brickBlock p {
+position: relative;
+top: -12px
+}
+
+#brik1 {
+  grid-area: 1/21/1/24;
+  background-color:#bf2604;
+
+}
+
+#brik2 {
+  grid-area: 2/19/2/23;
+  background-color:#bf2604;
+}
+
+#brik3 {
+  grid-area: 3/21/3/24;
+  background-color:#bf2604;
+}
+
+#brik4 {
+  grid-area: 3/18/3/21;
+  background-color:#f2790f;
+}
+
+#brik5 {
+  grid-area: 2/16/2/19;
+  background-color:#bf2604;
+}
+
+#brik6 {
+  grid-area: 1/17/1/21;
+  background-color:#f2790f;  
+}
+
+#brik7 {
+  grid-area: 1/17/1/15;
+  background-color:#bf2604;  
+}
+
+#brik8 {
+  grid-area: 1/12/1/15;
+  background-color:red;
+}
+
+#brik9{
+  grid-area: 2/13/2/16;
+  background-color:red;
+}
+
+#brik10{
+  grid-area: 2/13/2/10;
+  background-color:#bf2604;
+}
+
+#brik11{
+  grid-area: 3/15/3/18;
+  background-color:#bf2604;
+}
+
+#brik12{
+  grid-area: 3/15/3/12;
+  background-color:red;
+}
+
+#brik13{
+  
+}
+
+#brik14{
+  
+}
 /* header logo */
 
 .leftNav {
