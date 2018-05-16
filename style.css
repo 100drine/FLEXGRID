@@ -37,7 +37,7 @@ header H1 {
   font-family: 'Press Start 2P', cursive;
   position: relative;
   top: 8px;
-  text-shadow: 2px 2px 2px #8C0E03 ;
+  text-shadow: 2px 3px 0px #8C0E03 ;
   font-size: 23px;
 }
 
@@ -61,9 +61,10 @@ text-align: center;
 
 .brickBlock a {
 position: relative;
-top: 5px;
+top: 3px;
 text-decoration: none;
 color: inherit;
+text-shadow: 1px 2px 0px #8C0E03 ;
 }
 
 #brik1 {
@@ -85,6 +86,7 @@ color: inherit;
 #brik4 {
   grid-area: 3/18/3/21;
   background-color:#f2790f;
+  box-shadow: -2px -2px 0px #8C0E03 inset,2px 2px 0px #8C0E03 inset;
 }
 
 #brik5 {
@@ -94,7 +96,8 @@ color: inherit;
 
 #brik6 {
   grid-area: 1/17/1/21;
-  background-color:#f2790f;  
+  background-color:#f2790f; 
+  box-shadow: -2px -2px 0px #8C0E03 inset,2px 2px 0px #8C0E03 inset;
 }
 
 #brik7 {
@@ -105,11 +108,13 @@ color: inherit;
 #brik8 {
   grid-area: 1/12/1/15;
   background-color:red;
+  box-shadow: -2px -2px 0px #8C0E03 inset,2px 2px 0px #8C0E03 inset;
 }
 
 #brik9{
   grid-area: 2/13/2/16;
   background-color:red;
+  box-shadow: -2px -2px 0px #8C0E03 inset,2px 2px 0px #8C0E03 inset;
 }
 
 #brik10{
@@ -125,6 +130,7 @@ color: inherit;
 #brik12{
   grid-area: 3/15/3/12;
   background-color:red;
+  box-shadow: -2px -2px 0px #8C0E03 inset,2px 2px 0px #8C0E03 inset;
 }
 
 #brik13{
