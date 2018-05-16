@@ -3,7 +3,13 @@
 #f26716 orange
 #bf2604 orange-rouge
 #8C0E03 rouge profond
-#0D0000 noir */
+#0D0000 noir 
+
+header fontfamily
+font-family: 'Monoton', cursive;
+
+
+*/
 
 /* Fichier Style css */
 /* general */
@@ -30,39 +36,48 @@ header {
 
 .leftNav {
   height: 120px;
-  grid-column: 2;
+  grid-column: 1;
   display: grid;
   grid-template: repeat(20,5px) / repeat(40,5px);
+  position: relative;
+  left: -90px;
+  top : 5px;
 }
 
 #logo1 {
-  grid-area: 3/40/15/40;
+  grid-area: 3/39/15/39;
   background-color: red;
+  box-shadow: -0.2px -0.2px 2px #8C0E03 inset,0.2px 0.2px 1px #8C0E03 inset;
 }
 
 #logo2 {
-  grid-area: 5/28/17/28;
+  grid-area: 5/28/17/30;
   background-color: red;
+  box-shadow: -1px -1px 2px #8C0E03 inset,1px 1px 1px #8C0E03 inset;
 }
 
 #logo3 {
-  grid-area: 16/30/16/41;
+  grid-area: 15/31/17/40;
   background-color: red;
+  box-shadow: -1px -1px 2px #8C0E03 inset,1px 1px 1px #8C0E03 inset;
 }
 
 #logo4 {
-  grid-area: 3/39/3/28;
+  grid-area: 3/38/3/28;
   background-color: red;
+  box-shadow: -0.2px -0.2px 2px #8C0E03 inset,0.2px 0.2px 1px #8C0E03 inset;
 }
 
 #logo5 {
   grid-area: 7/36/9/33;
   background-color: red;
+  box-shadow: -1px -1px 2px #8C0E03 inset,1px 1px 1px #8C0E03 inset;
 }
 
 #logo6{
   grid-area: 13/36/11/33;
   background-color: red;
+  box-shadow: -1px -1px 2px #8C0E03 inset,1px 1px 1px #8C0E03 inset;
 }
 
 /*palette de couleurs
