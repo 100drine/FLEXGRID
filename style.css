@@ -1,4 +1,6 @@
-/*palette de couleurs
+/*
+
+palette de couleurs
 #f2790f jaune
 #f26716 orange
 #bf2604 orange-rouge
@@ -21,20 +23,107 @@ body {
     margin: 0;
 }
 
-/*  container FLex Grid */
 
-.flexgrid {
-    margin: 0 auto;
-    width: 90%;
-}
+    /*  container FLex Grid */
+    .flexgrid {
+        margin: 0 auto;
+        width: 90%;
+    }
 
-.title {
-    text-align: center;
-}
+    .title {
+        text-align: center;
+    }
 
-/*palette de couleurs
+    /*
+
+palette de couleurs
 #f2790f jaune
 #f26716 orange
 #bf2604 orange-rouge
 #8C0E03 rouge profond
-#0D0000 noir */
+#0D0000 noir
+
+*/
+    /* footer */
+    h3 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .contributeurs img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .contributeurs {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #conteneur1 {
+        background-color: #f2790f;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 300px;
+    }
+
+    #conteneur2 {
+        background-color: #f26716;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 300px;
+    }
+
+    #conteneur3 {
+        background-color: #bf2604;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 300px;
+        color: white;
+    }
+
+    #conteneur4 {
+        background-color: #8c0E03;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 300px;
+        color: white;
+    }
+    #conteneur6 {
+        background-color: #0D0000;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 1300px;
+        display: flex;
+        align-content: space-around;
+    }
+
+
+
+
+
+
+    #conteneur6 {
+        background-color: #0D0000;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 1300px;
+        display: flex;
+        align-content: space-around;
+    }
+
+    /*logo simplon*/
+    img {
+        width: 60px;
+        height: 60px;
+        display: block;
+        margin: auto;
+    }

@@ -10,6 +10,8 @@ header {
   top: 0;
 }
 
+
+
 header H1 {
   grid-column: 4;
   color: red;
@@ -112,13 +114,6 @@ text-shadow: 1px 2px 0px #8C0E03 ;
   box-shadow: -2px -2px 0px #8C0E03 inset,2px 2px 0px #8C0E03 inset;
 }
 
-#brik13{
-
-}
-
-#brik14{
-
-}
 /* header logo */
 
 .leftNav {
