@@ -17,12 +17,12 @@ font-family: 'Monoton', cursive;
 /* fichier css à part pour la mozaic */
 #banner {
     display: flex;
+    margin: 100px 0 0 0;
 }
 
 #mozaic {
     width: 65%;
     height: 400px;
-    margin: 100px 0 0 0;
     display: grid;
     grid-template: repeat(12, 1fr) / repeat(31, 1fr);
     grid-gap: 5px;
@@ -297,7 +297,6 @@ font-family: 'Monoton', cursive;
 #mozabox {
     width: 35%;
     height: 400px;
-    margin: 100px 0 0 0;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
