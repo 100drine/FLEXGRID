@@ -14,9 +14,11 @@ font-family: 'Monoton', cursive;
 
 /* fichier css à part pour la mozaic */
 
-
+#banner {
+    display: flex;
+}
 #mozaic {
-    width: 100%;
+    width: 50%;
     height: 400px;
     margin: 105px 0 0 0;
     display: grid;
@@ -333,21 +335,23 @@ font-family: 'Monoton', cursive;
 
 
 #mozabox {
-    width: 100%;
+    width: 50%;
     height: 400px;
     margin: 5px 0 0 0;
     display: flex;
+    margin: 105px 0 0 0;
 
 }
 
 #mozabox1 {
-    width: 50%;
+    width: 70%;
     height: 400px;
     background-color: white;
     display: flex;
     justify-content: space-around;
     flex-flow:column wrap;
-    align-content: stretch;
+    align-items: center;
+    background-color: #a5b1c2;
 }
 
 #mozabox1 p {
@@ -429,13 +433,92 @@ font-family: 'Monoton', cursive;
 }
 
 #mozabox2 {
-    width: 50%;
+    width: 30%;
     height: 400px;
-    background-color: yellow;;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background-color: #a5b1c2;
+    
+}
+
+#mozabox2 p {
+    font-size: 80px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
 }
 
 #flex10 {
-    
+    background-color: #fc5c65;
+    width: 100px;
+    height: 100px;
+    box-shadow: 2px 2px 3px black, -1px -1px 1px black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+#flex11 {
+    background-color: #fed330;
+    width: 100px;
+    height: 100px;
+    box-shadow: 2px 2px 3px black, -1px -1px 1px black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+#flex12 {
+    background-color: #4b7bec;
+    width: 100px;
+    height: 100px;
+    box-shadow: 2px 2px 3px black, -1px -1px 1px black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+#flex13 {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+#flex14 {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+#flex15 {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+#flex16 {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+#flex17 {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+#flex18 {
+    background-color: red;
+    width: 100px;
+    height: 100px;
 }
 
 
