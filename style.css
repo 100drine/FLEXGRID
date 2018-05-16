@@ -38,8 +38,8 @@ palette de couleurs
 
 */
 
-/*footer*/
-/* Logo github*/
+/* footer */
+
 
 h3{
    display: flex;
@@ -81,16 +81,6 @@ h3{
     color: white;
 }
 
-    #conteneur5{
-  height: 120px;
-  grid-column: 1;
-  display: grid;
-  grid-template: repeat(20,5px) / repeat(40,5px);
-  position: relative;
-  left: -90px;
-  top : 5px;
-}
-
 #conteneur4 {
     background-color: #8c0E03;
     display: flex;
@@ -110,15 +100,4 @@ h3{
     width: 1300px;
     display: flex;
     align-content: space-around;
-}
-
-
-
-
-/*logo simplon*/
-img{
-    width:  60px;
-    height: 60px;
-        display: block;
-    margin: auto;
 }
