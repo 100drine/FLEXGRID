@@ -3,7 +3,13 @@
 #f26716 orange
 #bf2604 orange-rouge
 #8C0E03 rouge profond
-#0D0000 noir */
+#0D0000 noir 
+
+header fontfamily
+font-family: 'Monoton', cursive;
+
+
+*/
 
 
 /* fichier css à part pour la mozaic */

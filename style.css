@@ -3,7 +3,13 @@
 #f26716 orange
 #bf2604 orange-rouge
 #8C0E03 rouge profond
-#0D0000 noir */
+#0D0000 noir 
+
+header fontfamily
+font-family: 'Monoton', cursive;
+font-family: 'Press Start 2P', cursive;
+
+*/
 
 /* Fichier Style css */
 /* general */
@@ -18,51 +24,160 @@ html,body{
 header {
   height: 100px;
   display: grid;
-  grid-template: repeat(5,24px)/repeat(38,51.57px);
+  grid-template: repeat(5,26px)/repeat(27,51.57px);
+  grid-gap: 7px;
   background-color: black;
   position: fixed;
   top: 0;
 }
 
+header H1 {
+  grid-column: 4;
+  color: red;
+  font-family: 'Press Start 2P', cursive;
+  position: relative;
+  top: 8px;
+  text-shadow: 2px 2px 2px #8C0E03 ;
+  font-size: 23px;
+}
 
+/* Bricks */
 
+/*
+#f2790f jaune
+#f26716 orange
+#bf2604 orange-rouge
+#8C0E03 rouge profond
+#0D0000 noir 
+*/
+.brickBlock {
+  height: 100px;
+  display: grid;
+  grid-template: repeat(5,26px)/repeat(27,51px);
+  grid-gap: 7px;
+font-family: 'Press Start 2P', cursive;
+text-align: center;
+}
+
+.brickBlock p {
+position: relative;
+top: -12px
+}
+
+#brik1 {
+  grid-area: 1/21/1/24;
+  background-color:#bf2604;
+
+}
+
+#brik2 {
+  grid-area: 2/19/2/23;
+  background-color:#bf2604;
+}
+
+#brik3 {
+  grid-area: 3/21/3/24;
+  background-color:#bf2604;
+}
+
+#brik4 {
+  grid-area: 3/18/3/21;
+  background-color:#f2790f;
+}
+
+#brik5 {
+  grid-area: 2/16/2/19;
+  background-color:#bf2604;
+}
+
+#brik6 {
+  grid-area: 1/17/1/21;
+  background-color:#f2790f;  
+}
+
+#brik7 {
+  grid-area: 1/17/1/15;
+  background-color:#bf2604;  
+}
+
+#brik8 {
+  grid-area: 1/12/1/15;
+  background-color:red;
+}
+
+#brik9{
+  grid-area: 2/13/2/16;
+  background-color:red;
+}
+
+#brik10{
+  grid-area: 2/13/2/10;
+  background-color:#bf2604;
+}
+
+#brik11{
+  grid-area: 3/15/3/18;
+  background-color:#bf2604;
+}
+
+#brik12{
+  grid-area: 3/15/3/12;
+  background-color:red;
+}
+
+#brik13{
+  
+}
+
+#brik14{
+  
+}
 /* header logo */
 
 .leftNav {
   height: 120px;
-  grid-column: 2;
+  grid-column: 1;
   display: grid;
   grid-template: repeat(20,5px) / repeat(40,5px);
+  position: relative;
+  left: -90px;
+  top : 5px;
 }
 
 #logo1 {
-  grid-area: 3/40/15/40;
+  grid-area: 3/39/15/39;
   background-color: red;
+  box-shadow: -0.2px -0.2px 2px #8C0E03 inset,0.2px 0.2px 1px #8C0E03 inset;
 }
 
 #logo2 {
-  grid-area: 5/28/17/28;
+  grid-area: 5/28/17/30;
   background-color: red;
+  box-shadow: -1px -1px 2px #8C0E03 inset,1px 1px 1px #8C0E03 inset;
 }
 
 #logo3 {
-  grid-area: 16/30/16/41;
+  grid-area: 15/31/17/40;
   background-color: red;
+  box-shadow: -1px -1px 2px #8C0E03 inset,1px 1px 1px #8C0E03 inset;
 }
 
 #logo4 {
-  grid-area: 3/39/3/28;
+  grid-area: 3/38/3/28;
   background-color: red;
+  box-shadow: -0.2px -0.2px 2px #8C0E03 inset,0.2px 0.2px 1px #8C0E03 inset;
 }
 
 #logo5 {
   grid-area: 7/36/9/33;
   background-color: red;
+  box-shadow: -1px -1px 2px #8C0E03 inset,1px 1px 1px #8C0E03 inset;
 }
 
 #logo6{
   grid-area: 13/36/11/33;
   background-color: red;
+  box-shadow: -1px -1px 2px #8C0E03 inset,1px 1px 1px #8C0E03 inset;
 }
 
 /*palette de couleurs
