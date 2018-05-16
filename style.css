@@ -12,14 +12,25 @@ font-family: 'Press Start 2P', cursive;
 */
 
 /* Fichier Style css */
+
 /* general */
 
-html,body{
-  width: 100%;
-  margin: 0;
+html,
+body {
+    width: 100%;
+    margin: 0;
 }
 
+/*  container FLex Grid */
 
+.flexgrid {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.title {
+    text-align: center;
+}
 
 /*palette de couleurs
 #f2790f jaune
