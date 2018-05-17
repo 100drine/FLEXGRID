@@ -411,7 +411,7 @@ font-family: 'Monoton', cursive;
     background-color: #8C0E03;
     width: 100px;
     height: 100px;
-    box-shadow: 2px 2px 3px white;
+    border: 3px solid white;
     display:flex;
     justify-content: center;
     align-items: center;
