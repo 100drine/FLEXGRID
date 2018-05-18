@@ -23,6 +23,21 @@ body {
     margin: 0;
 }
 
+/* anchors */
+
+#anchor2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 155%;
+}
+
+#anchor3 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 285%;
+}
 
 /*  container FLex Grid */
 
