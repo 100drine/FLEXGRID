@@ -376,7 +376,7 @@ font-family: 'Monoton', cursive;
     font-family: 'Bungee Shade', cursive;
 }
 
-#flex10 {
+#flex01 {
     background-color: #bf2604;
     width: 100px;
     height: 100px;
@@ -389,7 +389,7 @@ font-family: 'Monoton', cursive;
     border-radius: 5px;
 }
 
-#flex11 {
+#flex02 {
     background: url('img/343dda59f855.jpg') no-repeat center;
     width: 100px;
     height: 100px;
@@ -402,12 +402,12 @@ font-family: 'Monoton', cursive;
     border: 3px solid white;
 }
 
-#flex11 img {
+#flex02 img {
     width: 80px;
     height: 80px;;
 }
 
-#flex12 {
+#flex03 {
     background-color: #8C0E03;
     width: 100px;
     height: 100px;
