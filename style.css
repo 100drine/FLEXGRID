@@ -39,6 +39,12 @@ body {
     top: 285%;
 }
 
+/* Codepen pens */
+
+div.flexgrid:nth-child(4) > ul:nth-child(3) > li:nth-child(1) > h2:nth-child(1) {
+    margin-bottom: 10%;
+}
+
 /*  container FLex Grid */
 
 .flexgrid {
