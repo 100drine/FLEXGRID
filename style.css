@@ -109,6 +109,11 @@ palette de couleurs
 
 /* footer */
 
+footer{
+    width: 100%;
+    display: flex;
+}
+
 h3 {
     display: flex;
     justify-content: center;
