@@ -1,18 +1,15 @@
 /* header */
 
-.navContain {
-  display: flex
-}
+
 
 header {
-  height: 100px;
-  width: 100%;
-  display: grid;
-  grid-template: repeat(5,26px)/repeat(27,51.57px);
-  grid-gap: 7px;
-  background-color: black;
-  position: fixed;
-  top: 0;
+display: flex;
+width: 100%;
+height: 110px;
+background-color: #0D0000;
+position: fixed;
+top: 0;
+box-shadow: 0px 3px 3px #8C0E03;
 }
 
 
@@ -22,9 +19,11 @@ header H1 {
   color: red;
   font-family: 'Press Start 2P', cursive;
   position: relative;
-  top: 8px;
   text-shadow: 2px 3px 0px #8C0E03 ;
   font-size: 23px;
+  align-self: center;
+
+
 }
 
 /* Bricks */
@@ -39,35 +38,42 @@ header H1 {
 .brickBlock {
   height: 100px;
   display: grid;
-  grid-template: repeat(5,26px)/repeat(27,51px);
+  grid-template: repeat(5,26px)/repeat(27,fr);
   grid-gap: 7px;
 font-family: 'Press Start 2P', cursive;
 text-align: center;
 margin-top: 3px;
+position: relative;
+flex: 3 0 0;
+top: 3px
+
 }
 
 .brickBlock a {
 position: relative;
-top: 3px;
+top: 6px;
 text-decoration: none;
 color: inherit;
-text-shadow: 1px 2px 0px #8C0E03 ;
+text-shadow: 2px 2px 1px #8C0E03 ;
+
 }
 
 #brik1 {
   grid-area: 1/21/1/24;
   background-color:#bf2604;
-
+  box-shadow: -3px -3px 0px #8C0E03 inset,3px 3px 0px #8C0E03 inset;
 }
 
 #brik2 {
   grid-area: 2/19/2/23;
   background-color:#bf2604;
+    box-shadow: -3px -3px 0px #8C0E03 inset,3px 3px 0px #8C0E03 inset;
 }
 
 #brik3 {
   grid-area: 3/21/3/24;
   background-color:#bf2604;
+  box-shadow: -3px -3px 0px #8C0E03 inset,3px 3px 0px #8C0E03 inset;
 }
 
 #brik4 {
@@ -79,6 +85,7 @@ text-shadow: 1px 2px 0px #8C0E03 ;
 #brik5 {
   grid-area: 2/16/2/19;
   background-color:#bf2604;
+    box-shadow: -3px -3px 0px #8C0E03 inset,3px 3px 0px #8C0E03 inset;
 }
 
 #brik6 {
@@ -90,6 +97,7 @@ text-shadow: 1px 2px 0px #8C0E03 ;
 #brik7 {
   grid-area: 1/17/1/15;
   background-color:#bf2604;
+    box-shadow: -3px -3px 0px #8C0E03 inset,3px 3px 0px #8C0E03 inset;
 }
 
 #brik8 {
@@ -107,11 +115,13 @@ text-shadow: 1px 2px 0px #8C0E03 ;
 #brik10{
   grid-area: 2/13/2/10;
   background-color:#bf2604;
+    box-shadow: -3px -3px 0px #8C0E03 inset,3px 3px 0px #8C0E03 inset;
 }
 
 #brik11{
   grid-area: 3/15/3/18;
   background-color:#bf2604;
+    box-shadow: -3px -3px 0px #8C0E03 inset,3px 3px 0px #8C0E03 inset;
 }
 
 #brik12{
