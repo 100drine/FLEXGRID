@@ -138,6 +138,7 @@ footer {
     background-color: #0D0000;
     width: 100%;
     display: flex;
+    flex-direction: column;
 }
 
 
@@ -188,11 +189,6 @@ footer {
 
 
 
-
-
-
-
-
 #conteneur6 {
     background-color: #0D0000;
     color: white;
@@ -209,4 +205,9 @@ footer {
 img {
     width: 60px;
     height: 60px;
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
+
