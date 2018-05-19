@@ -18,10 +18,7 @@ font-family: 'Monoton', cursive;
 #banner {
     display: flex;
     margin: 110px 0 0 0;
-    border-top: solid 5px black;
-    border-bottom: solid 5px black;
-    border-left:5px solid black;
-    border-right:5px solid black;
+    border: solid 5px black;
 }
 
 .vide {
