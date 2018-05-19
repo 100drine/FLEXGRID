@@ -135,16 +135,11 @@ palette de couleurs
 /* footer */
 
 footer {
+    background-color: #0D0000;
     width: 100%;
     display: flex;
 }
 
-
-
-h3 {
-    display: flex;
-    justify-content: center;
-}
 
 .contributeurs img {
     width: 30px;
@@ -214,6 +209,4 @@ h3 {
 img {
     width: 60px;
     height: 60px;
-    display: block;
-    margin: auto;
 }
