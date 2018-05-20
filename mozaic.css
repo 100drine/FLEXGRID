@@ -126,7 +126,8 @@ font-family: 'Monoton', cursive;
 
 #box12 img{
     width:100px;
-    height: 97px;
+    height: 95px;
+    margin-top:-5px;
 }
 
 #box13 {
