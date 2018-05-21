@@ -10,6 +10,7 @@ margin: ;
 width: 94.31px;
 height: 130px;
 z-index: 1;
+cursor: pointer;
 }
 
 .card2 p {
