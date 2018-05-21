@@ -122,6 +122,24 @@ p {
 
 }
 
+a:link {
+    text-decoration: none;
+    color: #f26716;  
+}
+a:visited {
+    text-decoration: none;
+    color: #8C0E03;
+}
+a:hover {
+    text-decoration: none;
+    color: #f2790f;
+}
+a:active {
+    text-decoration: none;
+    color: #bf2604 ;
+}
+
+
 
 
 /*
