@@ -1,0 +1,19 @@
+.card {
+margin: ;
+width: 100px;
+height: 100px;
+}
+
+.front{
+z-index: -1;
+
+}
+
+.back img {
+width: 106px;
+height: 106px;
+padding: 0;
+z-index: -2;
+position: absolute;
+
+}

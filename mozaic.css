@@ -386,6 +386,7 @@ font-family: 'Monoton', cursive;
     flex-shrink: 0;
     overflow: hidden;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 #flex02 {
@@ -399,11 +400,13 @@ font-family: 'Monoton', cursive;
     overflow: hidden;
     border-radius: 5px;
     border: 3px solid white;
+    cursor: pointer;
 }
 
 #flex02 img {
     width: 80px;
     height: 80px;
+    cursor: pointer;
 }
 
 #flex03 {
@@ -417,6 +420,7 @@ font-family: 'Monoton', cursive;
     flex-shrink: 0;
     overflow: hidden;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 
