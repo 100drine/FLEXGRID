@@ -10,6 +10,7 @@ background-color: #0D0000;
 position: fixed;
 top: 0;
 box-shadow: 0px 3px 3px #8C0E03;
+z-index: 3;
 }
 
 
