@@ -1,0 +1,22 @@
+{
+  "name": "flexgrid-master",
+  "version": "1.0.0",
+  "description": "Projet de présentation de Flexbox et Css Grid en équipe  (Guillaume, Sandrine, Geoffrey, Vanessa)",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/100drine/FLEXGRID.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/100drine/FLEXGRID/issues"
+  },
+  "homepage": "https://github.com/100drine/FLEXGRID#readme",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}

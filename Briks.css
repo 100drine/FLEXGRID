@@ -177,3 +177,8 @@ text-shadow: 2px 2px 1px #8C0E03 ;
   background-color: red;
   box-shadow: -1px -1px 2px #8C0E03 inset,1px 1px 1px #8C0E03 inset;
 }
+
+.test {
+  display: none;
+  transition: 4s
+}
