@@ -16,6 +16,7 @@ font-family: 'Monoton', cursive;
 
 /* fichier css à part pour la mozaic */
 #banner {
+    width: 100%;
     display: flex;
     margin: 110px 0 0 0;
     border: solid 5px black;
