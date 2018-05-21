@@ -1,20 +1,20 @@
-$( "#mozaic" ).children().mouseenter(function(){
-    // $(this).css('width','300%');
-    // $(this).css('z-index','999999');
-    // $(this).effect('shake');
-    $(this).toggle( "size", {
-    to: { width: 200, height: 60 }
-  }, 1000);
-
-
-      });
-
-      $( "#mozaic" ).children().mouseleave(function(){
-        // $(this).css('width','100%');
-        // $(this).css('z-index','0');
-$(this).toggle('size');
-
-          });
+// $( "#mozaic" ).children().mouseenter(function(){
+//     // $(this).css('width','300%');
+//     // $(this).css('z-index','999999');
+//     // $(this).effect('shake');
+//     $(this).toggle( "size", {
+//     to: { width: 200, height: 60 }
+//   }, 1000);
+//
+//
+//       });
+//
+//       $( "#mozaic" ).children().mouseleave(function(){
+//         // $(this).css('width','100%');
+//         // $(this).css('z-index','0');
+// $(this).toggle('size');
+//
+//           });
 
 
 
@@ -41,3 +41,17 @@ $(this).toggle('size');
 // $('document').ready(function(){
 //   console.log($('#box30'));
 // })
+
+
+
+
+
+
+$('document').ready(function(){
+$(".card").flip({});
+  $('#flex01').mouseenter(function(){
+$(".card").flip({});
+  });
+
+
+});

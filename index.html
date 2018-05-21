@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mozaic.css">
     <link rel="stylesheet" href="Briks.css">
+    <link rel="stylesheet" href="cards.css">
 
     <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
@@ -81,9 +82,13 @@
             <div id="box11"></div>
             <div id="box12"><img src="img/Yoshi_Icon.png" /></div>
             <div id="box13"></div>
-            <div id="box14">
-                <p>R</p>
-            </div>
+
+
+              <div id="box14">
+                  <p>R</p>
+              </div>
+
+
             <div id="box15"></div>
             <div id="box16"></div>
             <div id="box17"></div>
@@ -122,13 +127,32 @@
         </div>
 
         <div id="mozabox">
-            <div id="flex01">
+
+
+          <div class="card">
+            <div class="front" id="flex01">
                 <p>B</p>
             </div>
-            <div id="flex02">
+        <div class="back">
+          <img src="https://files.gamebanana.com/img/ico/sprays/530-90_mario_box_by_n1co_thumb.jpg" alt="">
+        </div>
+          </div>
+
+          <div class="card">
+            <div class="front" id="flex02">
                 <img src="img/mariostar.png" /></div>
-            <div id="flex03">
+              <div class="back">
+              <img src="https://pre00.deviantart.net/8237/th/pre/i/2017/037/b/2/green_paper_yoshi_vector__1_by_greenmachine987-day29ro.png" alt="">
+              </div>
+              </div>
+
+          <div class="card">
+            <div class="front" id="flex03">
                 <p>X</p>
+            </div>
+            <div class="back">
+            <img src="https://orig00.deviantart.net/f1fa/f/2017/062/e/f/super_mario_world_modern_super_mushroom_sprite_by_adventuresmg64gaming-db10lgx.png" alt="">
+            </div>
             </div>
         </div>
     </div>
@@ -280,10 +304,21 @@
         </div>
     </footer>
 
+
+    <div class="card">
+      <div class="front">
+        <p>front content</p>
+      </div>
+      <div class="back">
+        <p>back content</p>
+      </div>
+    </div>
+
 <!-- <script src="https://code.jquery.com/jquery-2.1.4.min.js" charset="utf-8"></script>
 <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js" charset="utf-8"></script> -->
 <script src="node_modules/jquery/dist/jquery.min.js" charset="utf-8"></script>
 <script src="node_modules/jquery-ui-1.12.1.custom/jquery-ui.min.js" charset="utf-8"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-Flip/1.1.2/jquery.flip.min.js"></script>
 <script src="script.js"></script>
 
 </body>
