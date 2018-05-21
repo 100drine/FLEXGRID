@@ -18,9 +18,10 @@ font-family: 'Press Start 2P', cursive;
 /* general */
 
 
-body {
+body, html {
     width: 100%;
     margin: 0;
+    overflow-x: hidden;
 }
 
 /* anchors */
@@ -210,4 +211,3 @@ img {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
