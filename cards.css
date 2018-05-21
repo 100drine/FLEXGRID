@@ -5,12 +5,23 @@ height: 100px;
 z-index: 1;
 }
 
+.card2 {
+margin: ;
+width: 94.31px;
+height: 130px;
+z-index: 1;
+}
+
+.card2 p {
+  margin: 32% 0;
+}
+
 .front{
 z-index: -1;
 
 }
 
-.back img {
+.back img, .back {
 width: 106px;
 height: 106px;
 padding: 0;

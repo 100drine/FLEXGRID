@@ -49,6 +49,7 @@
 
 $('document').ready(function(){
 $(".card").flip({});
+$(".card2").flip({});
   $('#flex01').mouseenter(function(){
 $(".card").flip({});
   });
