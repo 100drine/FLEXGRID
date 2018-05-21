@@ -179,6 +179,9 @@ text-shadow: 2px 2px 1px #8C0E03 ;
 }
 
 .test {
-  display: none;
-  transition: 4s
+  transition: display;
+  transition-delay: 3s;
+}
+.test:hover {
+display: none;
 }
